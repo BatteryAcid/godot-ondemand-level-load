@@ -1,5 +1,7 @@
 extends Node3D
 
+func more_stuff():
+	print("more stuff")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
