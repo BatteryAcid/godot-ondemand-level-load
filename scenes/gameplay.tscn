@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://chhipev3cly6m"]
+
+[ext_resource type="Script" path="res://scripts/gameplay.gd" id="1_yulv4"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_j1ctv"]
+
+[node name="Gameplay" type="Node3D"]
+
+[node name="Node3D" type="Node3D" parent="."]
+script = ExtResource("1_yulv4")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Node3D"]
+mesh = SubResource("PlaneMesh_j1ctv")
